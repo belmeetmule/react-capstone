@@ -9,7 +9,7 @@ Object {
         class="fixed-top"
       >
         <ul
-          class="container-fluid"
+          class="container-fluid mb"
         >
           <li
             class="nav-link"
@@ -19,9 +19,9 @@ Object {
               href="/"
             >
               <span
-                class="navbar-brand main-header-text"
+                class="navbar-brand main-header-text mb-2"
               >
-                Home
+                Famous-Leagues
               </span>
             </a>
           </li>
@@ -48,7 +48,7 @@ Object {
       class="fixed-top"
     >
       <ul
-        class="container-fluid"
+        class="container-fluid mb"
       >
         <li
           class="nav-link"
@@ -58,9 +58,9 @@ Object {
             href="/"
           >
             <span
-              class="navbar-brand main-header-text"
+              class="navbar-brand main-header-text mb-2"
             >
-              Home
+              Famous-Leagues
             </span>
           </a>
         </li>
