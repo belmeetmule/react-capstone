@@ -34,7 +34,7 @@ const LeaguesComponent = () => {
           <Button variant="outline-success">Search</Button>
         </Form>
       </div>
-      <div id="consumePage">
+      <div id="main-grid">
         {leagues ? (
           leagues
             .filter((leagues) => leagues.name.toLowerCase().match(title.toLocaleLowerCase()))
