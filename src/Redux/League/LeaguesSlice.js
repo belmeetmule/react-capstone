@@ -19,14 +19,7 @@ export const getLeaguesData = createAsyncThunk(GET_LEAGUE_DATA, async () => {
 const leaguesSlice = createSlice({
   name: 'leagues',
   initialState,
-  reducers: {/*
-    joinMission: (state, action) => state.map((mission) => {
-      if (mission.mission_id === action.payload) {
-        return { ...mission, joined: !mission.joined };
-      }
-      return mission;
-    }), */
-  },
+  reducers: {},
 
   extraReducers: (builder) => {
     builder
@@ -44,6 +37,5 @@ const leaguesSlice = createSlice({
 });
 
 const { actions, reducer } = leaguesSlice;
-// const { joinMission } = actions;
 export { actions };
 export default reducer;
