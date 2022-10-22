@@ -7,7 +7,7 @@
 > * See teams in the league.
 > * See stats of the teams.
 
-![Project Screenshot](./src/Assets/scren-shot.png "Football Leagues")
+![Project Screenshot](./src/Assets/scren-shot.png "Football Desktop")(./src/Assets/scren-shot-mob.png "Foot-mob")
 
 ## Built With
 
