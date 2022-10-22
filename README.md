@@ -1,6 +1,6 @@
-# React Capstone: Football Leagues
+# React Capstone: Femaous-Leagues
 
-> Football Leagues which is built using React, Redux, SpaceX APIs, and react bootstrap allows you to:
+> Femaous-Leagues which is built using React, Redux, SpaceX APIs, and react bootstrap allows you to:
 
 > * See football leagues.
 > * Search football leagues.
