@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 
-.mb{
+.mb {
   justify-content: space-between;
   align-items: center;
 }
+
 span.navbar-brand.main-header-text.mb-2 {
   font-size: 2rem;
   color: darkgrey;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 800;
 }
 
