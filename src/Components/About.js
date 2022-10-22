@@ -4,22 +4,22 @@ import Card from 'react-bootstrap/Card';
 const About = () => (
   <div className="about-style" style={{ display: 'flex', justifyContent: 'center', margin: '30px' }}>
     <Card style={{ width: '40rem' }}>
-      <h2>
+      <h2 style={{ margin: '10px' }}>
         Our contacts
       </h2>
-      <Card.Text>
-        <p className="stats">
+      <Card.Text style={{ margin: '15px' }}>
+        <span className="stats">
           email: belmeetmule@gmail.com
           <br />
           {}
-        </p>
-        <p className="stats">
+        </span>
+        <span className="stats">
           website:
           {' '}
           <a href="https://belmeetmule.github.io/My-Portfolio/">www.belmeetmule.github.io/My-Portfolio</a>
           <br />
           {}
-        </p>
+        </span>
       </Card.Text>
 
     </Card>
