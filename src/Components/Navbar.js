@@ -8,10 +8,10 @@ library.add(fas);
 
 const Navbar = () => (
   <nav className="fixed-top">
-    <ul className="container-fluid">
+    <ul className="container-fluid mb">
       <li className="nav-link">
         <Link className="nav-link-item" to="/">
-          <span className="navbar-brand main-header-text">Home</span>
+          <span className="navbar-brand main-header-text mb-2">Famous-Leagues</span>
         </Link>
       </li>
       <li className="nav-link">

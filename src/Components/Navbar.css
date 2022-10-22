@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+.mb{
+  justify-content: space-between;
+  align-items: center;
+}
+span.navbar-brand.main-header-text.mb-2 {
+  font-size: 2rem;
+  color: darkgrey;
+  font-family: 'Lato';
+  font-weight: 800;
+}
+
 ul.container-fluid {
   background: rgb(16, 16, 72);
   display: flex;
