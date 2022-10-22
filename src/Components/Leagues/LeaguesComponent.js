@@ -19,7 +19,7 @@ const LeaguesComponent = () => {
     <>
       <div id="homePage_header" className="text-center">
         <h1 id="main-header-text">
-          <span className="text-white">Soccer</span>
+          <span className="text-white">Famous Europe</span>
           {' '}
           Leagues
         </h1>
