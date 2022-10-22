@@ -39,7 +39,8 @@ const LeaguesComponent = () => {
           leagues
             .filter((leagues) => leagues.name.toLowerCase().match(title.toLocaleLowerCase()))
             .map((leagues) => (
-              <Link key={leagues.id} to={`/detail/${leagues.id}`} className="m-list1">
+
+              <Link key={leagues.id} to={`/league/${leagues.id}`} className="m-list1">
                 <div className="card">
                   <img className="card-img-top" src={leagues.logo} alt="logo" />
                   <div className="card-body">
@@ -48,14 +49,16 @@ const LeaguesComponent = () => {
                   </div>
                 </div>
               </Link>
-            ))) : (
-              <div style={{
-                color: 'red', display: 'flex', faAlignJustify: 'center', fontSize: '40px',
-              }}
-              >
-                <Spinner />
-                no Data
-              </div>
+
+            ))
+        ) : (
+          <div style={{
+            color: 'red', display: 'flex', faAlignJustify: 'center', fontSize: '40px',
+          }}
+          >
+            <Spinner />
+            no Data
+          </div>
         )}
       </div>
     </>

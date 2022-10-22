@@ -15,11 +15,14 @@ const LeagueDetails = () => {
 
   const { leaguesId } = useParams();
   const league = leagues?.find((league) => league.id === leaguesId);
-
   useEffect(() => {
-    dispatch(getLeaguesData());
+    if (!leagues) {
+      dispatch(getLeaguesData());
+    }
   }, []);
-
+  const {
+    name, teams,
+  } = league;
   return (
     <div>
       <div id="homePage_header" className="text-center">
@@ -30,7 +33,7 @@ const LeagueDetails = () => {
         <div className="league-stat">
           <h1 id="main-header-text">
             <span className="text-white">
-              {league.name}
+              {name}
             </span>
           </h1>
         </div>
@@ -43,21 +46,21 @@ const LeagueDetails = () => {
               <Card.Title>
                 League Title:
                 <Badge bg="primary">
-                  {league.name}
+                  {name}
                 </Badge>
               </Card.Title>
               <Card.Text>
-                <p className="stats">
+                <span className="stats">
                   Number of teams:
                   <Badge bg="primary">
-                    {league.teams.length}
+                    {teams.length}
                   </Badge>
                   {' '}
                   {' '}
                   {' '}
                   <br />
                   {}
-                </p>
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
