@@ -13,19 +13,22 @@ Object {
           class="card"
           style="width: 40rem;"
         >
-          <h2>
+          <h2
+            style="margin: 10px;"
+          >
             Our contacts
           </h2>
           <p
             class="card-text"
+            style="margin: 15px;"
           >
-            <p
+            <span
               class="stats"
             >
               email: belmeetmule@gmail.com
               <br />
-            </p>
-            <p
+            </span>
+            <span
               class="stats"
             >
               website:
@@ -36,7 +39,7 @@ Object {
                 www.belmeetmule.github.io/My-Portfolio
               </a>
               <br />
-            </p>
+            </span>
           </p>
         </div>
       </div>
@@ -51,19 +54,22 @@ Object {
         class="card"
         style="width: 40rem;"
       >
-        <h2>
+        <h2
+          style="margin: 10px;"
+        >
           Our contacts
         </h2>
         <p
           class="card-text"
+          style="margin: 15px;"
         >
-          <p
+          <span
             class="stats"
           >
             email: belmeetmule@gmail.com
             <br />
-          </p>
-          <p
+          </span>
+          <span
             class="stats"
           >
             website:
@@ -74,7 +80,7 @@ Object {
               www.belmeetmule.github.io/My-Portfolio
             </a>
             <br />
-          </p>
+          </span>
         </p>
       </div>
     </div>
