@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Homepage Sould render Homepage component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="fixed-top"
+      >
+        <ul
+          class="container-fluid"
+        >
+          <li
+            class="nav-link"
+          >
+            <a
+              class="nav-link-item"
+              href="/"
+            >
+              <span
+                class="navbar-brand main-header-text"
+              >
+                Home
+              </span>
+            </a>
+          </li>
+          <li
+            class="nav-link"
+          >
+            <a
+              class="nav-link-item"
+              href="/About"
+            >
+              <span
+                class="navbar-brand main-header-text"
+              >
+                About
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        id="homePage_container"
+      >
+        <div
+          class="text-center"
+          id="homePage_header"
+        >
+          <h1
+            id="main-header-text"
+          >
+            <span
+              class="text-white"
+            >
+              Soccer
+            </span>
+             
+            Leagues
+          </h1>
+          <form
+            class="d-flex"
+          >
+            <input
+              aria-label="Search"
+              class="me-2 form-control"
+              placeholder="Search"
+              type="search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="button"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+        <div
+          id="consumePage"
+        >
+          <div
+            style="color: red; display: flex; font-size: 40px;"
+          >
+            <div
+              class="spinner-undefined"
+            />
+            no Data
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer footer-alt"
+        style="width: 100%; position: fixed; bottom: 0px; height: auto;"
+      >
+        <a
+          class="text-link"
+          href="https://belmeetmule.github.io/My-Portfolio/"
+          rel="noreferrer"
+          style="color: rgb(255, 255, 255); text-decoration: none; font-size: 1.4rem;"
+          target="_blank"
+        >
+          Mulugeta M
+        </a>
+        <br />
+        <p>
+           
+          ©
+           
+           
+          2022
+           
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="fixed-top"
+    >
+      <ul
+        class="container-fluid"
+      >
+        <li
+          class="nav-link"
+        >
+          <a
+            class="nav-link-item"
+            href="/"
+          >
+            <span
+              class="navbar-brand main-header-text"
+            >
+              Home
+            </span>
+          </a>
+        </li>
+        <li
+          class="nav-link"
+        >
+          <a
+            class="nav-link-item"
+            href="/About"
+          >
+            <span
+              class="navbar-brand main-header-text"
+            >
+              About
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      id="homePage_container"
+    >
+      <div
+        class="text-center"
+        id="homePage_header"
+      >
+        <h1
+          id="main-header-text"
+        >
+          <span
+            class="text-white"
+          >
+            Soccer
+          </span>
+           
+          Leagues
+        </h1>
+        <form
+          class="d-flex"
+        >
+          <input
+            aria-label="Search"
+            class="me-2 form-control"
+            placeholder="Search"
+            type="search"
+          />
+          <button
+            class="btn btn-outline-success"
+            type="button"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+      <div
+        id="consumePage"
+      >
+        <div
+          style="color: red; display: flex; font-size: 40px;"
+        >
+          <div
+            class="spinner-undefined"
+          />
+          no Data
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer footer-alt"
+      style="width: 100%; position: fixed; bottom: 0px; height: auto;"
+    >
+      <a
+        class="text-link"
+        href="https://belmeetmule.github.io/My-Portfolio/"
+        rel="noreferrer"
+        style="color: rgb(255, 255, 255); text-decoration: none; font-size: 1.4rem;"
+        target="_blank"
+      >
+        Mulugeta M
+      </a>
+      <br />
+      <p>
+         
+        ©
+         
+         
+        2022
+         
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

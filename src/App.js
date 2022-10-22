@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router';
+import HomePage from './Pages/HomePage';
+import LeaguePage from './Pages/LeaguePage';
+import AboutPage from './Pages/AboutPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Helllo capstone </h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/League/:leaguesId" element={<LeaguePage />} />
+      <Route path="/About" element={<AboutPage />} />
+    </Routes>
   );
 }
 
