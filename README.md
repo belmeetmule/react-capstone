@@ -22,7 +22,9 @@
 
 ## Live demo
 
-[Click here for Live Demo](https://deploy-preview-1--famous-swan-f14d8e.netlify.app/)
+- [Click here the app live](https://deploy-preview-1--famous-swan-f14d8e.netlify.app/)
+
+- [Click here to watch demonstration video](https://www.loom.com/share/20561ebaf56142d2897b7e091bb74570)
 
 ## Getting Started
 
@@ -76,6 +78,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 
 ## Acknowledgments
+> Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 
 > Special thanks to the co-creator of Redux (Dan Abramov) for his complete course on redux actions and store methods.
 
