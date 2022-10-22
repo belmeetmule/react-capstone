@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,16 +7,16 @@
   font-family: 'Lato', sans-serif;
 }
 
-.card-body{
+.card-body {
   background: rgb(16, 16, 72);
   border-radius: 8px;
 }
 
-.footer-alt{
+.footer-alt {
   font-size: 1.5rem;
 }
 
-.card-title{
+.card-title {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   font-size: 1.5rem;
@@ -26,7 +27,7 @@ a.navbar-brand.me-2 {
   font-weight: 900;
 }
 
-.back-button{
+.back-button {
   font-size: 1.4rem;
   color: red;
 }
@@ -35,7 +36,7 @@ a.navbar-brand.me-2 {
   padding: 10px 10px 10px 15px;
 }
 
-.league-stat{
+.league-stat {
   margin: 0 auto;
 }
 
@@ -44,12 +45,12 @@ a.navbar-brand.me-2 {
   height: auto;
 }
 
-#main-header-text{
+#main-header-text {
   margin: 0 auto;
   text-align: center;
 }
 
-.card{
+.card {
   background-color: rgb(242, 242, 242);
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
 }
@@ -78,7 +79,7 @@ a.navbar-brand.me-2 {
   margin-top: 30px;
 }
 
-img.card-img-top{
+img.card-img-top {
   margin: 0 auto;
 }
 
@@ -86,9 +87,10 @@ img.card-img-top{
   .navbar {
     padding: 0;
   }
-.m-list1:nth-child(4){
-  margin-bottom: 80px;
-}
+
+  .m-list1:nth-child(4) {
+    margin-bottom: 80px;
+  }
 
   .navbar .h1 {
     font-size: 0.8rem;
@@ -100,7 +102,7 @@ img.card-img-top{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     background-color: #121275;
     color: #cacaca;
   }
@@ -204,10 +206,12 @@ img.card-img-top{
   .navbar {
     padding: 0;
   }
+
   .m-list1:nth-child(3),
-  .m-list1:nth-child(4){
-  margin-bottom: 80px;
-}
+  .m-list1:nth-child(4) {
+    margin-bottom: 80px;
+  }
+
   .navbar .h1 {
     font-size: 0.8rem;
   }
@@ -303,5 +307,4 @@ img.card-img-top{
     justify-content: center;
     align-items: center;
   }
-
 }
