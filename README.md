@@ -1,13 +1,13 @@
 # React Capstone: Football Leagues
 
-> The Space Traveler's Hub which is built using React, Redux, SpaceX APIs, and react bootstrap allows you to:
+> Football Leagues which is built using React, Redux, SpaceX APIs, and react bootstrap allows you to:
 
 > * See football leagues.
 > * Search football leagues.
 > * See teams in the league.
 > * See stats of the teams.
 
-![Project Screenshot](./snapshot.PNG "Bookstore CMS")
+![Project Screenshot](./src/Assets/scren-shot.png "Football Leagues")
 
 ## Built With
 
@@ -29,7 +29,7 @@
 #### 1 - Git Clone.
 
 ```
-git clone https://github.com/iAmWaris97/space-travelers.git
+git clone https://github.com/belmeetmule/react-capstone.git
 ```
 #### 2 - Install node packages.
 
