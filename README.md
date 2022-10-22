@@ -20,7 +20,9 @@
 - **Redux**
 - **SpaceX APIs**
 
-[Live Demo](https://deploy-preview-1--famous-swan-f14d8e.netlify.app/)
+## Live demo
+
+[Click here for Live Demo](https://deploy-preview-1--famous-swan-f14d8e.netlify.app/)
 
 ## Getting Started
 
